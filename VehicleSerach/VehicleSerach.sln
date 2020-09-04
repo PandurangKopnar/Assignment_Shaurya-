@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSerach", "VehicleSerach.csproj", "{2B07E975-EFAA-4427-B42C-66AA0E6296E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B07E975-EFAA-4427-B42C-66AA0E6296E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B07E975-EFAA-4427-B42C-66AA0E6296E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B07E975-EFAA-4427-B42C-66AA0E6296E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B07E975-EFAA-4427-B42C-66AA0E6296E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40CD4417-38BD-466E-9FD5-F8BFD78123CE}
+	EndGlobalSection
+EndGlobal

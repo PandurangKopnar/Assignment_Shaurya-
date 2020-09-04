@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200904142258_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904142258_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200904142740_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904142740_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200904144124_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904144124_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200904144341_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904144341_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200904144616_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904144616_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200904145638_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200904145638_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Photo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	
+  </ItemGroup>
+
+</Project>

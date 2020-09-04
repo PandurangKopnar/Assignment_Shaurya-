@@ -1,0 +1,5 @@
+1. API for save, update and upload profile photo : App1
+2. API for list of vehicle by search (wild) criteria with pagination : VehicleSerach
+
+
+Use MS SQL Database
